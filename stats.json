@@ -1,0 +1,4083 @@
+{
+  "hash": "f12b135e0f2b750217ef",
+  "version": "5.70.0",
+  "time": 4931,
+  "builtAt": 1648638815838,
+  "publicPath": "auto",
+  "outputPath": "/Users/mac/study/webpack-demo/dist",
+  "assetsByChunkName": {
+    "main": [
+      "main.a38254e16a08db91a503.css",
+      "main.b1b2d02279d9a87aea97.js"
+    ],
+    "runtime": [
+      "runtime.6ff0e66b9ddec77aa6c6.js"
+    ],
+    "vendor": [
+      "vendor.3ca20f3a47c88c1bbc79.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "vendor.3ca20f3a47c88c1bbc79.js",
+      "size": 137417,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "3ca20f3a47c88c1bbc79",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "vendor.3ca20f3a47c88c1bbc79.js.LICENSE.txt",
+          "sourceMap": "vendor.3ca20f3a47c88c1bbc79.js.map"
+        },
+        "size": 137417
+      },
+      "chunkNames": [
+        "vendor"
+      ],
+      "chunkIdHints": [
+        "commons"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "vendor.3ca20f3a47c88c1bbc79.js.map",
+          "size": 341010,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 341010
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "vendor"
+          ],
+          "auxiliaryChunkIdHints": [
+            "commons"
+          ],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            736
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "vendor.3ca20f3a47c88c1bbc79.js.LICENSE.txt",
+          "size": 737,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 737
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        736
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "runtime.6ff0e66b9ddec77aa6c6.js",
+      "size": 3279,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "6ff0e66b9ddec77aa6c6",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "runtime.6ff0e66b9ddec77aa6c6.js.LICENSE.txt",
+          "sourceMap": "runtime.6ff0e66b9ddec77aa6c6.js.map"
+        },
+        "size": 3279
+      },
+      "chunkNames": [
+        "runtime"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "runtime.6ff0e66b9ddec77aa6c6.js.map",
+          "size": 15706,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 15706
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "runtime"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            666
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "runtime.6ff0e66b9ddec77aa6c6.js.LICENSE.txt",
+          "size": 15,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 15
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        666
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.a38254e16a08db91a503.css",
+      "size": 1550,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "a38254e16a08db91a503",
+        "minimized": true,
+        "size": 1550
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.b1b2d02279d9a87aea97.js",
+      "size": 739,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "b1b2d02279d9a87aea97",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "main.b1b2d02279d9a87aea97.js.LICENSE.txt",
+          "sourceMap": "main.b1b2d02279d9a87aea97.js.map"
+        },
+        "size": 739
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "main.b1b2d02279d9a87aea97.js.map",
+          "size": 1210,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 1210
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "main"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            179
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "main.b1b2d02279d9a87aea97.js.LICENSE.txt",
+          "size": 15,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 15
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 380,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 380
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "34.ec1a4823cd522913f7ad.js",
+      "size": 282,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "ec1a4823cd522913f7ad",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "34.ec1a4823cd522913f7ad.js.LICENSE.txt",
+          "sourceMap": "34.ec1a4823cd522913f7ad.js.map"
+        },
+        "size": 282
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "34.ec1a4823cd522913f7ad.js.map",
+          "size": 206,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 206
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            34
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "34.ec1a4823cd522913f7ad.js.LICENSE.txt",
+          "size": 15,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 15
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        34
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 33,
+      "sizes": {
+        "javascript": 33
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "34.ec1a4823cd522913f7ad.js"
+      ],
+      "auxiliaryFiles": [
+        "34.ec1a4823cd522913f7ad.js.map"
+      ],
+      "hash": "38b3fadc29415740306e",
+      "childrenByOrder": {},
+      "id": 34,
+      "siblings": [],
+      "parents": [
+        179,
+        666,
+        736
+      ],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 33,
+          "sizes": {
+            "javascript": 33
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/lazy.js",
+          "name": "./src/lazy.js",
+          "nameForCondition": "/Users/mac/study/webpack-demo/src/lazy.js",
+          "index": 10,
+          "preOrderIndex": 10,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+          "issuerName": "./src/commpent.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+              "name": "./src/commpent.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 34,
+          "issuerId": null,
+          "chunks": [
+            34
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+              "module": "./src/commpent.js",
+              "moduleName": "./src/commpent.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+              "resolvedModule": "./src/commpent.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./lazy",
+              "loc": "8:11-27",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js|ea4ea40343b8079474313360b047b450",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+              "resolvedModule": "./src/commpent.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./lazy",
+              "loc": "8:11-27",
+              "moduleId": 965,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        }
+      ],
+      "origins": [
+        {
+          "module": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+          "moduleName": "./src/commpent.js",
+          "loc": "8:11-27",
+          "request": "./lazy",
+          "moduleId": null
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "size": 9451,
+      "sizes": {
+        "javascript": 703,
+        "css/mini-extract": 8748
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "main.a38254e16a08db91a503.css",
+        "main.b1b2d02279d9a87aea97.js"
+      ],
+      "auxiliaryFiles": [
+        "main.b1b2d02279d9a87aea97.js.map"
+      ],
+      "hash": "7d796f776adad959c9cf",
+      "childrenByOrder": {},
+      "id": 179,
+      "siblings": [
+        666,
+        736
+      ],
+      "parents": [],
+      "children": [
+        34
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 703,
+          "sizes": {
+            "javascript": 703
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js|ea4ea40343b8079474313360b047b450",
+          "name": "./src/index.js + 2 modules",
+          "nameForCondition": "/Users/mac/study/webpack-demo/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 9,
+          "postOrderIndex": 9,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 965,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/index.js: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 127,
+              "sizes": {
+                "javascript": 127
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "nameForCondition": "/Users/mac/study/webpack-demo/src/index.js",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 9,
+              "postOrderIndex": 9,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 5:0-34"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 50,
+              "sizes": {
+                "javascript": 50
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+              "name": "./src/main.css",
+              "nameForCondition": "/Users/mac/study/webpack-demo/src/main.css",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+                  "name": "./src/index.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./main.css",
+                  "loc": "2:0-20",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 526,
+              "sizes": {
+                "javascript": 526
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+              "name": "./src/commpent.js",
+              "nameForCondition": "/Users/mac/study/webpack-demo/src/commpent.js",
+              "index": 9,
+              "preOrderIndex": 9,
+              "index2": 8,
+              "postOrderIndex": 8,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+                  "name": "./src/index.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./commpent",
+                  "loc": "1:0-35",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./commpent",
+                  "loc": "5:21-30",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "type": "module",
+          "moduleType": "css/mini-extract",
+          "size": 8748,
+          "sizes": {
+            "css/mini-extract": 8748
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "css|/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css|0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "nameForCondition": "/Users/mac/study/webpack-demo/src/main.css",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "issuerName": "./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+              "name": "./src/main.css",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js|ea4ea40343b8079474313360b047b450",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+              "resolvedModule": "./src/main.css",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": 965,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+              "module": "./src/main.css",
+              "moduleName": "./src/main.css",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+              "resolvedModule": "./src/main.css",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+          ],
+          "depth": 2
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 7921,
+      "sizes": {
+        "runtime": 7921
+      },
+      "names": [
+        "runtime"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "runtime.6ff0e66b9ddec77aa6c6.js"
+      ],
+      "auxiliaryFiles": [
+        "runtime.6ff0e66b9ddec77aa6c6.js.map"
+      ],
+      "hash": "33c5a1d39c215f79729d",
+      "childrenByOrder": {},
+      "id": 666,
+      "siblings": [
+        179,
+        736
+      ],
+      "parents": [],
+      "children": [
+        34
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 953,
+          "sizes": {
+            "runtime": 953
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/chunk loaded",
+          "name": "webpack/runtime/chunk loaded",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 0,
+          "sizes": {
+            "runtime": 0
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/css loading",
+          "name": "webpack/runtime/css loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 336,
+          "sizes": {
+            "runtime": 336
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/ensure chunk",
+          "name": "webpack/runtime/ensure chunk",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 203,
+          "sizes": {
+            "runtime": 203
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get javascript chunk filename",
+          "name": "webpack/runtime/get javascript chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 168,
+          "sizes": {
+            "runtime": 168
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get mini-css chunk filename",
+          "name": "webpack/runtime/get mini-css chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 221,
+          "sizes": {
+            "runtime": 221
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/global",
+          "name": "webpack/runtime/global",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 103,
+          "sizes": {
+            "runtime": 103
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 3257,
+          "sizes": {
+            "runtime": 3257
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/jsonp chunk loading",
+          "name": "webpack/runtime/jsonp chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 1534,
+          "sizes": {
+            "runtime": 1534
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/load script",
+          "name": "webpack/runtime/load script",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 279,
+          "sizes": {
+            "runtime": 279
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 867,
+          "sizes": {
+            "runtime": 867
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: commons) (name: vendor)",
+      "size": 144221,
+      "sizes": {
+        "javascript": 144221
+      },
+      "names": [
+        "vendor"
+      ],
+      "idHints": [
+        "commons"
+      ],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "vendor.3ca20f3a47c88c1bbc79.js"
+      ],
+      "auxiliaryFiles": [
+        "vendor.3ca20f3a47c88c1bbc79.js.map"
+      ],
+      "hash": "33dc69c8a76db1f454f6",
+      "childrenByOrder": {},
+      "id": 736,
+      "siblings": [
+        179,
+        666
+      ],
+      "parents": [],
+      "children": [
+        34
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 131303,
+          "sizes": {
+            "javascript": 131303
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+          "issuerName": "./node_modules/react-dom/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 935
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 448,
+          "issuerId": 935,
+          "chunks": [
+            736
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+              "module": "./node_modules/react-dom/index.js",
+              "moduleName": "./node_modules/react-dom/index.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+              "resolvedModule": "./node_modules/react-dom/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react-dom.production.min.js",
+              "loc": "35:2-63",
+              "moduleId": 935,
+              "resolvedModuleId": 935
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "createPortal",
+            "createRoot",
+            "findDOMNode",
+            "flushSync",
+            "hydrate",
+            "hydrateRoot",
+            "render",
+            "unmountComponentAtNode",
+            "unstable_batchedUpdates",
+            "unstable_renderSubtreeIntoContainer",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 13:13-61",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1363,
+          "sizes": {
+            "javascript": 1363
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 7,
+          "postOrderIndex": 7,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 935,
+          "issuerId": null,
+          "chunks": [
+            736
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js|ea4ea40343b8079474313360b047b450",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom",
+              "loc": "4:0-19",
+              "moduleId": 965,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "createPortal",
+            "createRoot",
+            "findDOMNode",
+            "flushSync",
+            "hydrate",
+            "hydrateRoot",
+            "render",
+            "unmountComponentAtNode",
+            "unstable_batchedUpdates",
+            "unstable_renderSubtreeIntoContainer",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 34:2-13",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 6932,
+          "sizes": {
+            "javascript": 6932
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/react/cjs/react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js",
+          "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/react/cjs/react.production.min.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/mac/study/webpack-demo/node_modules/react/index.js",
+          "issuerName": "./node_modules/react/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/react/index.js",
+              "name": "./node_modules/react/index.js",
+              "id": 294
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 408,
+          "issuerId": 294,
+          "chunks": [
+            736
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react/index.js",
+              "module": "./node_modules/react/index.js",
+              "moduleName": "./node_modules/react/index.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react/index.js",
+              "resolvedModule": "./node_modules/react/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react.production.min.js",
+              "loc": "4:2-59",
+              "moduleId": 294,
+              "resolvedModuleId": 294
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Children",
+            "Component",
+            "Fragment",
+            "Profiler",
+            "PureComponent",
+            "StrictMode",
+            "Suspense",
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "cloneElement",
+            "createContext",
+            "createElement",
+            "createFactory",
+            "createRef",
+            "forwardRef",
+            "isValidElement",
+            "lazy",
+            "memo",
+            "startTransition",
+            "unstable_act",
+            "useCallback",
+            "useContext",
+            "useDebugValue",
+            "useDeferredValue",
+            "useEffect",
+            "useId",
+            "useImperativeHandle",
+            "useInsertionEffect",
+            "useLayoutEffect",
+            "useMemo",
+            "useReducer",
+            "useRef",
+            "useState",
+            "useSyncExternalStore",
+            "useTransition",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 10:13-370",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 190,
+          "sizes": {
+            "javascript": 190
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/react/index.js",
+          "name": "./node_modules/react/index.js",
+          "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/react/index.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 294,
+          "issuerId": null,
+          "chunks": [
+            736
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js|ea4ea40343b8079474313360b047b450",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "3:0-15",
+              "moduleId": 965,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "13:20-36",
+              "moduleId": 448,
+              "resolvedModuleId": 448
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Children",
+            "Component",
+            "Fragment",
+            "Profiler",
+            "PureComponent",
+            "StrictMode",
+            "Suspense",
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "cloneElement",
+            "createContext",
+            "createElement",
+            "createFactory",
+            "createRef",
+            "forwardRef",
+            "isValidElement",
+            "lazy",
+            "memo",
+            "startTransition",
+            "unstable_act",
+            "useCallback",
+            "useContext",
+            "useDebugValue",
+            "useDeferredValue",
+            "useEffect",
+            "useId",
+            "useImperativeHandle",
+            "useInsertionEffect",
+            "useLayoutEffect",
+            "useMemo",
+            "useReducer",
+            "useRef",
+            "useState",
+            "useSyncExternalStore",
+            "useTransition",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:2-60",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 4235,
+          "sizes": {
+            "javascript": 4235
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "index": 8,
+          "preOrderIndex": 8,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/mac/study/webpack-demo/node_modules/scheduler/index.js",
+          "issuerName": "./node_modules/scheduler/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 935
+            },
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "id": 448
+            },
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/index.js",
+              "name": "./node_modules/scheduler/index.js",
+              "id": 840
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 53,
+          "issuerId": 840,
+          "chunks": [
+            736
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "13:227-247",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:20-40",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:85-105",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:449-469",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "18:56-76",
+              "moduleId": 53,
+              "resolvedModuleId": 53
+            },
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/index.js",
+              "module": "./node_modules/scheduler/index.js",
+              "moduleName": "./node_modules/scheduler/index.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/index.js",
+              "resolvedModule": "./node_modules/scheduler/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/scheduler.production.min.js",
+              "loc": "4:2-63",
+              "moduleId": 840,
+              "resolvedModuleId": 840
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "unstable_IdlePriority",
+            "unstable_ImmediatePriority",
+            "unstable_LowPriority",
+            "unstable_NormalPriority",
+            "unstable_Profiling",
+            "unstable_UserBlockingPriority",
+            "unstable_cancelCallback",
+            "unstable_continueExecution",
+            "unstable_forceFrameRate",
+            "unstable_getCurrentPriorityLevel",
+            "unstable_getFirstCallbackNode",
+            "unstable_next",
+            "unstable_now",
+            "unstable_pauseExecution",
+            "unstable_requestPaint",
+            "unstable_runWithPriority",
+            "unstable_scheduleCallback",
+            "unstable_shouldYield",
+            "unstable_wrapCallback"
+          ],
+          "optimizationBailout": [
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 13:227-247",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:20-40",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:85-105",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:449-469",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 18:56-76",
+            "Statement (IfStatement) with side effects in source code at 11:71-284",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 198,
+          "sizes": {
+            "javascript": 198
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/index.js",
+          "name": "./node_modules/scheduler/index.js",
+          "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/scheduler/index.js",
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 935
+            },
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "id": 448
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 840,
+          "issuerId": 448,
+          "chunks": [
+            736
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "scheduler",
+              "loc": "13:40-60",
+              "moduleId": 448,
+              "resolvedModuleId": 448
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "unstable_IdlePriority",
+            "unstable_ImmediatePriority",
+            "unstable_LowPriority",
+            "unstable_NormalPriority",
+            "unstable_Profiling",
+            "unstable_UserBlockingPriority",
+            "unstable_cancelCallback",
+            "unstable_continueExecution",
+            "unstable_forceFrameRate",
+            "unstable_getCurrentPriorityLevel",
+            "unstable_getFirstCallbackNode",
+            "unstable_next",
+            "unstable_now",
+            "unstable_pauseExecution",
+            "unstable_requestPaint",
+            "unstable_runWithPriority",
+            "unstable_scheduleCallback",
+            "unstable_shouldYield",
+            "unstable_wrapCallback"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:2-64",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "layer": null,
+      "size": 703,
+      "sizes": {
+        "javascript": 703
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js|ea4ea40343b8079474313360b047b450",
+      "name": "./src/index.js + 2 modules",
+      "nameForCondition": "/Users/mac/study/webpack-demo/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 9,
+      "postOrderIndex": 9,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 965,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/index.js: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 127,
+          "sizes": {
+            "javascript": 127
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/Users/mac/study/webpack-demo/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 9,
+          "postOrderIndex": 9,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 5:0-34"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 50,
+          "sizes": {
+            "javascript": 50
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "nameForCondition": "/Users/mac/study/webpack-demo/src/main.css",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./main.css",
+              "loc": "2:0-20",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 526,
+          "sizes": {
+            "javascript": 526
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+          "name": "./src/commpent.js",
+          "nameForCondition": "/Users/mac/study/webpack-demo/src/commpent.js",
+          "index": 9,
+          "preOrderIndex": 9,
+          "index2": 8,
+          "postOrderIndex": 8,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./commpent",
+              "loc": "1:0-35",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./commpent",
+              "loc": "5:21-30",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 50,
+      "sizes": {
+        "javascript": 50
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+      "name": "./src/main.css",
+      "nameForCondition": "/Users/mac/study/webpack-demo/src/main.css",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./main.css",
+          "loc": "2:0-20",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 190,
+      "sizes": {
+        "javascript": 190
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/react/index.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 294,
+      "issuerId": null,
+      "chunks": [
+        736
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js|ea4ea40343b8079474313360b047b450",
+          "module": "./src/index.js + 2 modules",
+          "moduleName": "./src/index.js + 2 modules",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "3:0-15",
+          "moduleId": 965,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "13:20-36",
+          "moduleId": 448,
+          "resolvedModuleId": 448
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Children",
+        "Component",
+        "Fragment",
+        "Profiler",
+        "PureComponent",
+        "StrictMode",
+        "Suspense",
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "cloneElement",
+        "createContext",
+        "createElement",
+        "createFactory",
+        "createRef",
+        "forwardRef",
+        "isValidElement",
+        "lazy",
+        "memo",
+        "startTransition",
+        "unstable_act",
+        "useCallback",
+        "useContext",
+        "useDebugValue",
+        "useDeferredValue",
+        "useEffect",
+        "useId",
+        "useImperativeHandle",
+        "useInsertionEffect",
+        "useLayoutEffect",
+        "useMemo",
+        "useReducer",
+        "useRef",
+        "useState",
+        "useSyncExternalStore",
+        "useTransition",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 4:2-60",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1363,
+      "sizes": {
+        "javascript": 1363
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 7,
+      "postOrderIndex": 7,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 935,
+      "issuerId": null,
+      "chunks": [
+        736
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js|ea4ea40343b8079474313360b047b450",
+          "module": "./src/index.js + 2 modules",
+          "moduleName": "./src/index.js + 2 modules",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-dom",
+          "loc": "4:0-19",
+          "moduleId": 965,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "createPortal",
+        "createRoot",
+        "findDOMNode",
+        "flushSync",
+        "hydrate",
+        "hydrateRoot",
+        "render",
+        "unmountComponentAtNode",
+        "unstable_batchedUpdates",
+        "unstable_renderSubtreeIntoContainer",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 34:2-13",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 526,
+      "sizes": {
+        "javascript": 526
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+      "name": "./src/commpent.js",
+      "nameForCondition": "/Users/mac/study/webpack-demo/src/commpent.js",
+      "index": 9,
+      "preOrderIndex": 9,
+      "index2": 8,
+      "postOrderIndex": 8,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./commpent",
+          "loc": "1:0-35",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./commpent",
+          "loc": "5:21-30",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "css/mini-extract",
+      "size": 8748,
+      "sizes": {
+        "css/mini-extract": 8748
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "css|/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css|0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+      "nameForCondition": "/Users/mac/study/webpack-demo/src/main.css",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+      "issuerName": "./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js|ea4ea40343b8079474313360b047b450",
+          "module": "./src/index.js + 2 modules",
+          "moduleName": "./src/index.js + 2 modules",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": 965,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "module": "./src/main.css",
+          "moduleName": "./src/main.css",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 6932,
+      "sizes": {
+        "javascript": 6932
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/react/cjs/react.production.min.js",
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/react/cjs/react.production.min.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/react/index.js",
+      "issuerName": "./node_modules/react/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/react/index.js",
+          "name": "./node_modules/react/index.js",
+          "id": 294
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 408,
+      "issuerId": 294,
+      "chunks": [
+        736
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react/index.js",
+          "module": "./node_modules/react/index.js",
+          "moduleName": "./node_modules/react/index.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react/index.js",
+          "resolvedModule": "./node_modules/react/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react.production.min.js",
+          "loc": "4:2-59",
+          "moduleId": 294,
+          "resolvedModuleId": 294
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Children",
+        "Component",
+        "Fragment",
+        "Profiler",
+        "PureComponent",
+        "StrictMode",
+        "Suspense",
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "cloneElement",
+        "createContext",
+        "createElement",
+        "createFactory",
+        "createRef",
+        "forwardRef",
+        "isValidElement",
+        "lazy",
+        "memo",
+        "startTransition",
+        "unstable_act",
+        "useCallback",
+        "useContext",
+        "useDebugValue",
+        "useDeferredValue",
+        "useEffect",
+        "useId",
+        "useImperativeHandle",
+        "useInsertionEffect",
+        "useLayoutEffect",
+        "useMemo",
+        "useReducer",
+        "useRef",
+        "useState",
+        "useSyncExternalStore",
+        "useTransition",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 10:13-370",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 131303,
+      "sizes": {
+        "javascript": 131303
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+      "issuerName": "./node_modules/react-dom/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 935
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 448,
+      "issuerId": 935,
+      "chunks": [
+        736
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+          "module": "./node_modules/react-dom/index.js",
+          "moduleName": "./node_modules/react-dom/index.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+          "resolvedModule": "./node_modules/react-dom/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react-dom.production.min.js",
+          "loc": "35:2-63",
+          "moduleId": 935,
+          "resolvedModuleId": 935
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "createPortal",
+        "createRoot",
+        "findDOMNode",
+        "flushSync",
+        "hydrate",
+        "hydrateRoot",
+        "render",
+        "unmountComponentAtNode",
+        "unstable_batchedUpdates",
+        "unstable_renderSubtreeIntoContainer",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 13:13-61",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 33,
+      "sizes": {
+        "javascript": 33
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/lazy.js",
+      "name": "./src/lazy.js",
+      "nameForCondition": "/Users/mac/study/webpack-demo/src/lazy.js",
+      "index": 10,
+      "preOrderIndex": 10,
+      "index2": 10,
+      "postOrderIndex": 10,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+      "issuerName": "./src/commpent.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+          "name": "./src/commpent.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 34,
+      "issuerId": null,
+      "chunks": [
+        34
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+          "module": "./src/commpent.js",
+          "moduleName": "./src/commpent.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+          "resolvedModule": "./src/commpent.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./lazy",
+          "loc": "8:11-27",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js|ea4ea40343b8079474313360b047b450",
+          "module": "./src/index.js + 2 modules",
+          "moduleName": "./src/index.js + 2 modules",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/commpent.js",
+          "resolvedModule": "./src/commpent.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./lazy",
+          "loc": "8:11-27",
+          "moduleId": 965,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 198,
+      "sizes": {
+        "javascript": 198
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/scheduler/index.js",
+      "index": 7,
+      "preOrderIndex": 7,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 935
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "id": 448
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 840,
+      "issuerId": 448,
+      "chunks": [
+        736
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "scheduler",
+          "loc": "13:40-60",
+          "moduleId": 448,
+          "resolvedModuleId": 448
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "unstable_IdlePriority",
+        "unstable_ImmediatePriority",
+        "unstable_LowPriority",
+        "unstable_NormalPriority",
+        "unstable_Profiling",
+        "unstable_UserBlockingPriority",
+        "unstable_cancelCallback",
+        "unstable_continueExecution",
+        "unstable_forceFrameRate",
+        "unstable_getCurrentPriorityLevel",
+        "unstable_getFirstCallbackNode",
+        "unstable_next",
+        "unstable_now",
+        "unstable_pauseExecution",
+        "unstable_requestPaint",
+        "unstable_runWithPriority",
+        "unstable_scheduleCallback",
+        "unstable_shouldYield",
+        "unstable_wrapCallback"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 4:2-64",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 4235,
+      "sizes": {
+        "javascript": 4235
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+      "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+      "index": 8,
+      "preOrderIndex": 8,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/scheduler/index.js",
+      "issuerName": "./node_modules/scheduler/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 935
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "id": 448
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/index.js",
+          "name": "./node_modules/scheduler/index.js",
+          "id": 840
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 53,
+      "issuerId": 840,
+      "chunks": [
+        736
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "13:227-247",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:20-40",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:85-105",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:449-469",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "18:56-76",
+          "moduleId": 53,
+          "resolvedModuleId": 53
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/index.js",
+          "module": "./node_modules/scheduler/index.js",
+          "moduleName": "./node_modules/scheduler/index.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/scheduler/index.js",
+          "resolvedModule": "./node_modules/scheduler/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/scheduler.production.min.js",
+          "loc": "4:2-63",
+          "moduleId": 840,
+          "resolvedModuleId": 840
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "unstable_IdlePriority",
+        "unstable_ImmediatePriority",
+        "unstable_LowPriority",
+        "unstable_NormalPriority",
+        "unstable_Profiling",
+        "unstable_UserBlockingPriority",
+        "unstable_cancelCallback",
+        "unstable_continueExecution",
+        "unstable_forceFrameRate",
+        "unstable_getCurrentPriorityLevel",
+        "unstable_getFirstCallbackNode",
+        "unstable_next",
+        "unstable_now",
+        "unstable_pauseExecution",
+        "unstable_requestPaint",
+        "unstable_runWithPriority",
+        "unstable_scheduleCallback",
+        "unstable_shouldYield",
+        "unstable_wrapCallback"
+      ],
+      "optimizationBailout": [
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 13:227-247",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:20-40",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:85-105",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:449-469",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 18:56-76",
+        "Statement (IfStatement) with side effects in source code at 11:71-284",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 20120,
+      "sizes": {
+        "javascript": 20120
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+      "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+      "nameForCondition": "/Users/mac/study/webpack-demo/src/main.css",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+      "issuerName": "./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "loader import",
+          "active": true,
+          "explanation": "",
+          "userRequest": "/Users/mac/study/webpack-demo/src/main.css.webpack[javascript/auto]!=!!!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "loc": "/Users/mac/study/webpack-demo/src/main.css.webpack[javascript/auto]!=!!!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 4:0-97",
+        "ModuleConcatenation bailout: Module uses module.id"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2318,
+      "sizes": {
+        "javascript": 2318
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+      "issuerName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "id": null
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "3:0-89",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "4:30-57",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+          "module": "./node_modules/css-loader/dist/runtime/api.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "7:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 7:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 7:0-102:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 688,
+      "sizes": {
+        "javascript": 688
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "nameForCondition": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+      "issuerName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/mac/study/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??ruleSet[1].rules[0].use[0]!/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "id": null
+        },
+        {
+          "identifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "name": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "loc": "2:0-106",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "module": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "moduleName": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!/Users/mac/study/webpack-demo/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!/Users/mac/study/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "loc": "4:58-95",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "resolvedModuleIdentifier": "/Users/mac/study/webpack-demo/node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 3:0-22:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 953,
+      "sizes": {
+        "runtime": 953
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/chunk loaded",
+      "name": "webpack/runtime/chunk loaded",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 302,
+      "sizes": {
+        "runtime": 302
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CompatGetDefaultExportRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 0,
+      "sizes": {
+        "runtime": 0
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/css loading",
+      "name": "webpack/runtime/css loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 313,
+      "sizes": {
+        "runtime": 313
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for DefinePropertyGettersRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 336,
+      "sizes": {
+        "runtime": 336
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/ensure chunk",
+      "name": "webpack/runtime/ensure chunk",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 203,
+      "sizes": {
+        "runtime": 203
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get javascript chunk filename",
+      "name": "webpack/runtime/get javascript chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 168,
+      "sizes": {
+        "runtime": 168
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get mini-css chunk filename",
+      "name": "webpack/runtime/get mini-css chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 103,
+      "sizes": {
+        "runtime": 103
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for HasOwnPropertyRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 103,
+      "sizes": {
+        "runtime": 103
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 3257,
+      "sizes": {
+        "runtime": 3257
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 1534,
+      "sizes": {
+        "runtime": 1534
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/load script",
+      "name": "webpack/runtime/load script",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 279,
+      "sizes": {
+        "runtime": 279
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for MakeNamespaceObjectRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 279,
+      "sizes": {
+        "runtime": 279
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 867,
+      "sizes": {
+        "runtime": 867
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        666,
+        736,
+        179
+      ],
+      "assets": [
+        {
+          "name": "runtime.6ff0e66b9ddec77aa6c6.js",
+          "size": 3279
+        },
+        {
+          "name": "vendor.3ca20f3a47c88c1bbc79.js",
+          "size": 137417
+        },
+        {
+          "name": "main.a38254e16a08db91a503.css",
+          "size": 1550
+        },
+        {
+          "name": "main.b1b2d02279d9a87aea97.js",
+          "size": 739
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 142985,
+      "auxiliaryAssets": [
+        {
+          "name": "main.b1b2d02279d9a87aea97.js.map",
+          "size": 1210
+        },
+        {
+          "name": "runtime.6ff0e66b9ddec77aa6c6.js.map",
+          "size": 15706
+        },
+        {
+          "name": "vendor.3ca20f3a47c88c1bbc79.js.map",
+          "size": 341010
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 357926,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        666,
+        736,
+        179
+      ],
+      "assets": [
+        {
+          "name": "runtime.6ff0e66b9ddec77aa6c6.js",
+          "size": 3279
+        },
+        {
+          "name": "vendor.3ca20f3a47c88c1bbc79.js",
+          "size": 137417
+        },
+        {
+          "name": "main.a38254e16a08db91a503.css",
+          "size": 1550
+        },
+        {
+          "name": "main.b1b2d02279d9a87aea97.js",
+          "size": 739
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 142985,
+      "auxiliaryAssets": [
+        {
+          "name": "main.b1b2d02279d9a87aea97.js.map",
+          "size": 1210
+        },
+        {
+          "name": "runtime.6ff0e66b9ddec77aa6c6.js.map",
+          "size": 15706
+        },
+        {
+          "name": "vendor.3ca20f3a47c88c1bbc79.js.map",
+          "size": 341010
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 357926,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": []
+}

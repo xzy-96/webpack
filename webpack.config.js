@@ -1,6 +1,8 @@
 const { mode } = require("webpack-nano/argv");
 const { merge } = require("webpack-merge");
 const parts = require("./webpack.parts");
+const path = require("path");
+
 const cssLoaders = [parts.autoprefix(), parts.tailwind()];
 const commonConfig = merge([
   parts.clean(),
@@ -45,6 +47,7 @@ const productionConfig = merge([
   parts.minifyCSS({ options: { preset: ["default"] } }),
   parts.eliminateUnusedCSS(),
   parts.attachRevision(),
+  { recordsPath: path.join(__dirname, "records.json") },
 ]);
 
 const developmentConfig = merge([
