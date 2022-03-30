@@ -3,11 +3,14 @@ const { MiniHtmlWebpackPlugin } = require("mini-html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const webpack = require("webpack");
 const { GitRevisionPlugin } = require("git-revision-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 const path = require("path");
 const glob = require("glob");
 const PurgeCSSPlugin = require("purgecss-webpack-plugin");
 const APP_SOURCE = path.join(__dirname, "src");
 const ALL_FILES = glob.sync(path.join(__dirname, "src/*.js"));
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+
 exports.eliminateUnusedCSS = () => ({
   plugins: [
     new PurgeCSSPlugin({
@@ -64,7 +67,7 @@ exports.extractCSS = ({ options = {}, loaders = [] } = {}) => {
     },
     plugins: [
       new MiniCssExtractPlugin({
-        filename: "[name].css",
+        filename: "[name].[contenthash].css",
       }),
     ],
   };
@@ -116,3 +119,22 @@ exports.attachRevision = () => ({
     }),
   ],
 });
+
+exports.minifyJavaScript = () => ({
+  optimization: { minimizer: [new TerserPlugin()] },
+});
+
+exports.minifyCSS = ({ options }) => ({
+  optimization: {
+    minimizer: [new CssMinimizerPlugin({ minimizerOptions: options })],
+  },
+});
+
+exports.setFreeVariable = (key, value) => {
+  const env = {};
+  env[key] = JSON.stringify(value);
+
+  return {
+    plugins: [new webpack.DefinePlugin(env)],
+  };
+};
