@@ -24,9 +24,25 @@ const commonConfig = merge([
       },
     },
   },
+  parts.setFreeVariable("HELLO", "hello from config"),
 ]);
 
 const productionConfig = merge([
+  {
+    output: {
+      chunkFilename: "[name].[contenthash].js",
+      filename: "[name].[contenthash].js",
+      assetModuleFilename: "[name].[contenthash][ext][query]",
+    },
+  },
+  {
+    optimization: {
+      splitChunks: { chunks: "all" },
+      runtimeChunk: { name: "runtime" },
+    },
+  },
+  parts.minifyJavaScript(),
+  parts.minifyCSS({ options: { preset: ["default"] } }),
   parts.eliminateUnusedCSS(),
   parts.attachRevision(),
 ]);
