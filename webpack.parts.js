@@ -10,6 +10,7 @@ const PurgeCSSPlugin = require("purgecss-webpack-plugin");
 const APP_SOURCE = path.join(__dirname, "src");
 const ALL_FILES = glob.sync(path.join(__dirname, "src/*.js"));
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const { ModuleFederationPlugin } = require("webpack").container;
 
 exports.eliminateUnusedCSS = () => ({
   plugins: [
@@ -148,3 +149,23 @@ exports.setFreeVariable = (key, value) => {
     plugins: [new webpack.DefinePlugin(env)],
   };
 };
+
+
+
+exports.federateModule = ({
+  name,
+  filename,
+  exposes,
+  remotes,
+  shared,
+}) => ({
+  plugins: [
+    new ModuleFederationPlugin({
+      name,
+      filename,
+      exposes,
+      remotes,
+      shared,
+    }),
+  ],
+});
