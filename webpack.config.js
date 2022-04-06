@@ -1,69 +1,68 @@
-const { mode } = require("webpack-nano/argv");
-const { merge } = require("webpack-merge");
-const parts = require("./webpack.parts");
-const path = require("path");
+const { mode } = require('webpack-nano/argv');
+const { merge } = require('webpack-merge');
+const parts = require('./webpack.parts');
+const path = require('path');
 
 const cssLoaders = [parts.autoprefix(), parts.tailwind()];
 const commonConfig = merge([
-  parts.clean(),
-  { entry: ["./src"] },
-  parts.page({ title: "Demo" }),
-  // parts.loadCSS(),
-  parts.extractCSS({ loaders: cssLoaders }),
-  parts.loadImages({ limit: 15000 }),
-  parts.loadJavaScript(),
-  parts.generateSourceMaps({ type: "source-map" }),
-  {
-    optimization: {
-      splitChunks: {
-        cacheGroups: {
-          commons: {
-            test: /[\\/]node_modules[\\/]/,
-            name: "vendor",
-            chunks: "initial",
-          },
-        },
-      },
+    parts.clean(),
+    { entry: ['./src/index.ts'] },
+    parts.page({ title: 'Demo' }),
+    // parts.loadCSS(),
+    parts.extractCSS({ loaders: cssLoaders }),
+    parts.loadImages({ limit: 15000 }),
+    parts.loadJavaScript(),
+    parts.tsLoader(),
+    parts.providePlugins(),
+    parts.generateSourceMaps({ type: 'source-map' }),
+    {
+        optimization: {
+            splitChunks: {
+                cacheGroups: {
+                    commons: {
+                        test: /[\\/]node_modules[\\/]/,
+                        name: 'vendor',
+                        chunks: 'initial'
+                    }
+                }
+            }
+        }
     },
-  },
-  parts.setFreeVariable("HELLO", "hello from config"),
+    parts.setFreeVariable('HELLO', 'hello from config')
 ]);
 
 const productionConfig = merge([
-  {
-    output: {
-      chunkFilename: "[name].[contenthash].js",
-      filename: "[name].[contenthash].js",
-      assetModuleFilename: "[name].[contenthash][ext][query]",
+    {
+        output: {
+            chunkFilename: '[name].[contenthash].js',
+            filename: '[name].[contenthash].js',
+            assetModuleFilename: '[name].[contenthash][ext][query]'
+        }
     },
-  },
-  {
-    optimization: {
-      splitChunks: { chunks: "all" },
-      runtimeChunk: { name: "runtime" },
+    {
+        optimization: {
+            splitChunks: { chunks: 'all' },
+            runtimeChunk: { name: 'runtime' }
+        }
     },
-  },
-  parts.minifyJavaScript(),
-  parts.minifyCSS({ options: { preset: ["default"] } }),
-  parts.eliminateUnusedCSS(),
-  parts.attachRevision(),
-  { recordsPath: path.join(__dirname, "records.json") },
+    parts.minifyJavaScript(),
+    parts.minifyCSS({ options: { preset: ['default'] } }),
+    parts.eliminateUnusedCSS(),
+    parts.attachRevision(),
+    { recordsPath: path.join(__dirname, 'records.json') }
 ]);
 
-const developmentConfig = merge([
-  { entry: ["webpack-plugin-serve/client"] },
-  parts.devServer(),
-]);
+const developmentConfig = merge([{ entry: ['webpack-plugin-serve/client'] }, parts.devServer()]);
 
 const getConfig = (mode) => {
-  switch (mode) {
-    case "production":
-      return merge(commonConfig, productionConfig, { mode });
-    case "development":
-      return merge(commonConfig, developmentConfig, { mode });
-    default:
-      throw new Error(`Trying to use an unknown mode, ${mode}`);
-  }
+    switch (mode) {
+        case 'production':
+            return merge(commonConfig, productionConfig, { mode });
+        case 'development':
+            return merge(commonConfig, developmentConfig, { mode });
+        default:
+            throw new Error(`Trying to use an unknown mode, ${mode}`);
+    }
 };
 
 module.exports = getConfig(mode);
